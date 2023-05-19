@@ -21,6 +21,7 @@ const createBoxes = amount => {
     boxes += box;
     sizaDivBox += 10;
   }
+
   ref.divBoxesEl.innerHTML = boxes;
 };
 
